@@ -1,0 +1,35 @@
+server:
+  port: 8088
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fast_food
+    username: postgres
+    password: root123
+  application:
+    name: BOT-SERVICE
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+        connection:
+          charset: UTF-8
+          hbm2ddl:
+            import_files_sql_extractor: org.hibernate.tool.hbm2ddl.MultipleLinesSqlCommandExtractor
+  sql:
+    init:
+      mode: never
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+
+bot:
+  name: myspringwebhookbot
+  token: 5142090389:AAHdEM--3et-DYDV8w52XcuOXniP_WFqf0c
+  path: https://d1da-146-158-23-122.ngrok.io
