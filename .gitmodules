@@ -1,3 +1,27 @@
 [submodule "app-auth-service"]
 	path = app-auth-service
 	url = https://github.com/Erlan01/app-auth-service.git
+[submodule "app-branch-service"]
+	path = app-branch-service
+	url = https://github.com/Erlan01/app-branch-service.git
+[submodule "app-db-lib"]
+	path = app-db-lib
+	url = https://github.com/Erlan01/app-db-lib.git
+[submodule "app-fast-food-bot"]
+	path = app-fast-food-bot
+	url = https://github.com/Erlan01/app-fast-food-bot.git
+[submodule "app-fast-food-client"]
+	path = app-fast-food-client
+	url = https://github.com/Erlan01/app-fast-food-client.git
+[submodule "app-order-service"]
+	path = app-order-service
+	url = https://github.com/Erlan01/app-order-service.git
+[submodule "app-product-service"]
+	path = app-product-service
+	url = https://github.com/Erlan01/app-product-service.git
+[submodule "app-service-gateway"]
+	path = app-service-gateway
+	url = https://github.com/Erlan01/app-service-gateway.git
+[submodule "app-service-registry"]
+	path = app-service-registry
+	url = https://github.com/Erlan01/app-service-registry.git
